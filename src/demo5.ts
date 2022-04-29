@@ -1,3 +1,4 @@
+// 泛型
 const calcArray = <T>(data: T): T[] => {
     let list: T[] = [];
     for (let i = 0; i < 3; i++) {
