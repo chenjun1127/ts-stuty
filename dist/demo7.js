@@ -13,5 +13,5 @@ class calcArray2 {
 }
 const res = new calcArray2();
 res.add(1);
-res.add("1");
+res.add('1');
 console.log(res.getValue());

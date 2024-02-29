@@ -5,4 +5,4 @@ const calcArray1 = (name, age) => {
     const res = { name, age };
     return [res];
 };
-console.log(calcArray1("jack", 30));
+console.log(calcArray1('jack', 30));

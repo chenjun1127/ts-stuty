@@ -3,7 +3,6 @@ class Animal {
     constructor(name) {
         this.name = name;
     }
-    ;
 }
 class Pig extends Animal {
     constructor(name) {
@@ -17,6 +16,6 @@ class Pig extends Animal {
         console.log(`我的名字是${this.name},年龄是${this.age}`);
     }
 }
-let pig = new Pig("八戒");
+let pig = new Pig('八戒');
 pig.setAge(20);
 pig.say();
