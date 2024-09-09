@@ -5,12 +5,12 @@ class Animal {
     }
 }
 class Pig extends Animal {
+    setAge(age) {
+        this.age = age;
+    }
     constructor(name) {
         super(name);
         this.age = 0;
-    }
-    setAge(age) {
-        this.age = age;
     }
     say() {
         console.log(`我的名字是${this.name},年龄是${this.age}`);
