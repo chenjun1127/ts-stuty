@@ -5,3 +5,12 @@ enum Roles {
   USER
 }
 console.log(Roles);
+enum str {
+  A,
+  B,
+  C,
+  D
+}
+type strUnion = keyof typeof str;
+const a1: strUnion = 'A';
+console.log(a1);
