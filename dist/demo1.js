@@ -23,3 +23,8 @@ const car = {
     b: 2
 };
 console.log(car);
+var p = {
+    username: 'jack',
+    age: '18'
+};
+console.log(p);

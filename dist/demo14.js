@@ -7,3 +7,12 @@ var Roles;
     Roles[Roles["USER"] = 4] = "USER";
 })(Roles || (Roles = {}));
 console.log(Roles);
+var str;
+(function (str) {
+    str[str["A"] = 0] = "A";
+    str[str["B"] = 1] = "B";
+    str[str["C"] = 2] = "C";
+    str[str["D"] = 3] = "D";
+})(str || (str = {}));
+const a1 = 'A';
+console.log(a1);
