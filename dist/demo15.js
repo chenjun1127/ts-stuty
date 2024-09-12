@@ -1,3 +1,7 @@
 "use strict";
-var cd = 1;
-var ef = '1';
+// infer 关键字
+(() => {
+    var a = 1;
+    var b = '1';
+    console.log(a, b);
+})();
